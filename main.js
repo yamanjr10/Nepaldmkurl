@@ -425,7 +425,7 @@ function init() {
 
     // Set up IP copy button
     document.getElementById('joinBtn').addEventListener('click', function () {
-        navigator.clipboard.writeText('Nepaldmkurl.aternos.me:26225').then(() => {
+        navigator.clipboard.writeText('ShantiSmp1.aternos.me:26225').then(() => {
             const originalText = this.innerHTML;
             this.innerHTML = '<i class="fas fa-check"></i> Copied!';
             setTimeout(() => {
